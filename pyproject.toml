@@ -10,6 +10,8 @@ packages = [{include = "muscle_app"}]
 python = "^3.9"
 fastapi = "^0.97.0"
 uvicorn = {extras = ["standard"], version = "^0.22.0"}
+sqlalchemy = "^2.0.18"
+aiomysql = "^0.2.0"
 
 
 [build-system]
